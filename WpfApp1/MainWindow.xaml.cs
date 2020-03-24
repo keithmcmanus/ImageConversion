@@ -41,6 +41,7 @@ namespace WpfApp1
             imgSmall.Source = Convert(card);
         }
 
+        //Copied from >> http://james-ramsden.com/c-convert-image-bitmapimage/
         public BitmapImage Convert(System.Drawing.Image img)
         {
             using (var memory = new MemoryStream())
